@@ -1,0 +1,17 @@
+id: b9ee50c7-b928-4423-a669-d8b9da98ae9f
+name: Python AWS Cred Collection
+description: Collect profile data from AWS credentials file
+tactic: Auto-Generated
+technique:
+  id: T0000
+  name: Auto-Generated
+metadata:
+  authors: []
+  tags: []
+  payloads:
+    aws_creds.py: 339d12a782863ddbddb63cf42adb66096c46b084
+platforms:
+  darwin:
+    sh:
+      command: chmod +x ./aws_creds.py && python3 ./aws_creds.py
+      payload: aws_creds.py
